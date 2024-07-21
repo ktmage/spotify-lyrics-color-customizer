@@ -1,14 +1,20 @@
 # Spotify Lyrics Color Customizer
 
-Spotify Lyrics Color Customizerは、Spotifyのウェブプレイヤーで表示される歌詞の背景色をカスタマイズするためのChrome拡張機能です。
+Spotify Lyrics Color Customizerは、Spotifyのウェブプレイヤーで表示される歌詞ページをカスタマイズするためのChrome拡張機能です。
 
 ## 特徴
 
-- Spotifyの歌詞表示の背景色を任意の色に変更可能
+- Spotify内の歌詞ページにおける背景色・文字色などを任意の色に変更可能
 - 簡単にインストールと使用が可能
 - ユーザーフレンドリーなオプションページ
 
 ## インストール方法
+
+### 一般ユーザー向け
+
+ストアにはまだ公開されていません。
+
+### 開発者向け
 
 1. このリポジトリをクローンするか、ZIPファイルとしてダウンロードして解凍します。
 2. Google Chromeを開き、`chrome://extensions` にアクセスします。
@@ -29,10 +35,10 @@ Spotify Lyrics Color Customizerは、Spotifyのウェブプレイヤーで表示
 このプロジェクトは以下のファイルで構成されています：
 
 - `manifest.json`: 拡張機能の設定ファイル
-- `content.js`: 実際にSpotifyのページで動作するスクリプト
-- `options.html`: オプションページのHTML
-- `options.js`: オプションページの動作を制御するスクリプト
+- `_locales`: ローカライズ用のファイル
+- `content/*`: 実際にSpotifyのページで動作するスクリプト
+- `popup/*`: ポップアップページのいろいろ
 
 ## 貢献
 
-バグの報告や新機能の提案は、Issueを作成してください。プルリクエストも歓迎します。
+このプロジェクトに貢献する方法については、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
