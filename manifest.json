@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Spotify Lyrics Color Customizer",
+    "version": "1.0",
+    "description": "Spotifyの歌詞背景色をカスタマイズします",
+    "permissions": ["storage"],
+    "host_permissions": ["*://open.spotify.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://open.spotify.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "options_page": "options.html"
+  }
