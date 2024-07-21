@@ -2,10 +2,10 @@
 function update(tabId) {
     chrome.tabs.sendMessage(tabId, { message: "echo" }).then((response) => {
         chrome.action.enable();
-        chrome.action.setIcon({ path: "assets/icon/neutral/16x16.png" });
+        chrome.action.setIcon({ path: "icons/neutral/16x16.png" });
     }).catch((error) => {
         chrome.action.disable();
-        chrome.action.setIcon({ path: "assets/icon/disabled/16x16.png" });
+        chrome.action.setIcon({ path: "icons/disabled/16x16.png" });
     });
 }
   

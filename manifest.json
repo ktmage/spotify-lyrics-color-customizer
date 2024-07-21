@@ -11,20 +11,20 @@
     "content_scripts": [
         {
             "matches": ["*://open.spotify.com/*"],
-            "js": ["src/content/content.js"],
+            "js": ["content/content.js"],
             "run_at": "document_end"
         }
     ],
     "action": {
-        "default_popup": "src/popup/popup.html"  
+        "default_popup": "popup/popup.html"  
     },
     "background": {
         "service_worker": "service-worker.js"
     },
     "icons": {
-        "16": "assets/icon/neutral/16x16.png",
-        "32": "assets/icon/neutral/32x32.png",
-        "48": "assets/icon/neutral/48x48.png",
-        "128": "assets/icon/neutral/128x128.png"
+        "16": "icons/neutral/16x16.png",
+        "32": "icons/neutral/32x32.png",
+        "48": "icons/neutral/48x48.png",
+        "128": "icons/neutral/128x128.png"
     }
 }
