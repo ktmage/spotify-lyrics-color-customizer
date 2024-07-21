@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify Lyrics Color Customizer</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div class="app-container">
+            <h1 id="popup-title">Settings</h1>
+            <div class="option-container">
+                <label for="background-color-picker" id="background-color-label">Background Color</label>
+                <input type="color" id="background-color-picker">
+            </div>
+            <div class="option-container">
+                <label for="active-color-picker" id="active-color-label">Active Text Color</label>
+                <input type="color" id="active-color-picker">
+            </div>
+            <div class="option-container">
+                <label for="inactive-color-picker" id="inactive-color-label">Inactive Text Color</label>
+                <input type="color" id="inactive-color-picker">
+            </div>
+            <div class="option-container">
+                <label for="passed-color-picker" id="passed-color-label">Passed Text Color</label>
+                <input type="color" id="passed-color-picker">
+            </div>
+            <div class="button-container">
+                <button id="reset" class="btn btn-secondary">Reset</button>
+                <button id="save" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+        <script src="localization.js"></script>
+    </body>
+</html>
