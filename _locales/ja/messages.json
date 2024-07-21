@@ -1,0 +1,29 @@
+{
+    "name": {
+        "message": "Spotify Lyrics Customizer - 歌詞の表示をカスタマイズ"
+    },
+    "description":{
+        "message":"Spotifyでの歌詞の表示をカスタマイズします。"
+    },
+    "popup_title":{
+        "message":"設定"
+    },
+    "background_color_label": {
+        "message": "背景の色"
+    },
+    "active_color_label": {
+        "message": "アクティブなテキスト"
+    },
+    "inactive_color_label": {
+        "message": "アクティブではないテキスト"
+    },
+    "passed_color_label": {
+        "message": "過ぎたテキスト"
+    },
+    "save": {
+        "message": "保存"
+    },
+    "reset": {
+        "message": "リセット"
+    }
+}

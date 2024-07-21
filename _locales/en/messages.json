@@ -1,0 +1,29 @@
+{
+    "name": {
+        "message": "Spotify Lyrics Customizer"
+    },
+    "description": {
+        "message": "Customize the background color of Spotify lyrics"
+    },
+    "popup_title": {
+        "message": "Settings"
+    },
+    "background_color_label": {
+        "message": "background color"
+    },
+    "active_color_label": {
+        "message": "active text color"
+    },
+    "inactive_color_label": {
+        "message": "inactive text color"
+    },
+    "passed_color_label": {
+        "message": "passed text color"
+    },
+    "save": {
+        "message": "Save"
+    },
+    "reset": {
+        "message": "Reset"
+    }
+}
